@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54649" started-at="2022-10-10T08:18:52Z" finished-at="2022-10-10T08:19:46Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@2fd6b6c7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="54649" started-at="2022-10-10T08:18:52Z" finished-at="2022-10-10T08:19:46Z">
+      <class name="parallel.ParallelRun">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:parallel.ParallelRun@2fd6b6c7]" name="setUpClass" is-config="true" duration-ms="540" started-at="2022-10-10T08:18:52Z" finished-at="2022-10-10T08:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@2fd6b6c7]" name="runScenario" duration-ms="51423" started-at="2022-10-10T08:18:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-10T08:19:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home loan borrowing power calculator feature"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@2fd6b6c7]" name="runScenario" duration-ms="46196" started-at="2022-10-10T08:18:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-10T08:19:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful navigation to application home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@2fd6b6c7]" name="runScenario" duration-ms="48201" started-at="2022-10-10T08:18:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-10T08:19:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home loan borrowing power calculator feature for Living expenses as "$1""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@2fd6b6c7]" name="runScenario" duration-ms="42859" started-at="2022-10-10T08:18:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-10T08:19:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To check failed reports: UI test-verify all fields like forms, textbox, headers, footers etc are properly visible on the page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User details]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/]> but was:<[dfdfd]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: expected:<[https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/]> but was:<[dfdfd]>
+at org.junit.Assert.assertEquals(Assert.java:117)
+at org.junit.Assert.assertEquals(Assert.java:146)
+at parallel.GenerateBorrowEstimationSteps.user_gets_application_url_as(GenerateBorrowEstimationSteps.java:107)
+at ✽.User is on home page(classpath:parallel/BorrowEstimates.feature:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@2fd6b6c7]" name="tearDownClass" is-config="true" duration-ms="2609" started-at="2022-10-10T08:19:44Z" finished-at="2022-10-10T08:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.ParallelRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
